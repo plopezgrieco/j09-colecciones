@@ -80,10 +80,10 @@ public class Cliente implements Comparable<Cliente> {
 		return idCliente == other.idCliente;
 	}
 
-	@Override
-	public String toString() {
-		return "Cliente (" + idCliente + ", " + apellido1 + ", " + apellido2 + ", " + nombre + ", " + email + ")";
-	}
+//	@Override
+//	public String toString() {
+//		return "Cliente (" + idCliente + ", " + apellido1 + ", " + apellido2 + ", " + nombre + ", " + email + ")";
+//	}
 	
 	@Override
 	public int compareTo(Cliente o) {
